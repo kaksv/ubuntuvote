@@ -124,7 +124,7 @@ export default function Home() {
         <div className='space-y-3 mb-12'>
           <h1 className='text-gray-200 text-2xl font-bold'>Welcome to {"Ubuntu DAO"}</h1>
           <p className='text-gray-400 text-lg font-semibold '>
-            {"A place for the values of Ubuntu"}
+            {"A place where Ubuntu proposals are submitted, discussed and voted on."}
           </p>
         </div>
         {!user.loggedIn ? null : !balance ? <button onClick={joinDAO} className='rounded-lg font-semibold text-md py-2 px-6 text-white bg-green-500'>Join this DAO</button> : <>
